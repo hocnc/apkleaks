@@ -55,5 +55,11 @@
 	"Twitter_ClientID": "[t|T][w|W][i|I][t|T][t|T][e|E][r|R](.{0,20})?['\"][0-9a-z]{18,25}",
 	"Twitter_OAuth": "[t|T][w|W][i|I][t|T][t|T][e|E][r|R].*['|\"][0-9a-zA-Z]{35,44}['|\"]",
 	"Twitter_Secret_Key": "[t|T][w|W][i|I][t|T][t|T][e|E][r|R](.{0,20})?['\"][0-9a-z]{35,44}",
-	"Functions": "FileOutputStream|openFile|openInputStream|setResult\\(-?\\d+, getIntent\\(\\)\\)|evaluateJavascript|startsWith\\(\"(http|https)\"\\)|getExternalCacheDir|ZipInputStream|contains\\(\""
+	"Functions": "FileOutputStream|openFile|openInputStream|setResult\\(-?\\d+, getIntent\\(\\)\\)|evaluateJavascript|startsWith\\(\"(http|https)\"\\)|getExternalCacheDir|ZipInputStream|contains\\(\"",
+	"Azure_Connection_String": "core\\.windows\\.net",
+	"OKTA_API_KEY": "00[a-zA-Z0-9\\-\\_]{40}",
+	"FCM_server_keys": [
+		"AIzaSy[0-9A-Za-z_-]{33}",
+     	"AAAA[a-zA-Z0-9_-]{7}:[a-zA-Z0-9_-]{140}"
+	]
 }
